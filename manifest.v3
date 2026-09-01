@@ -12,17 +12,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="JcPublicTools">5.0</value>
     <value name="Amazon_AWS_S3_Demo">1.0</value>
+    <value name="LowerFSPackage">2.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">01-09-2026 04:15:19 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-09-01T04:18:59.934758052Z</value>
+  <value name="lastUpdated">2026-09-01T04:19:19.751037154Z</value>
   <value name="creator">Sourabh Harkawat</value>
 </Values>
