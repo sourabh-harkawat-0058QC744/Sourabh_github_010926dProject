@@ -24,6 +24,27 @@ packages:
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: testbranch
+services:
+- serviceName: project.sourabh_github_010926d.integrations:hgchg
+  packages:
+  - name: Sourabh_github_010926dProject
+    version: "1.0"
+  - name: Amazon_AWS_S3_Demo
+    version: "1.0"
+  - name: JcPublicTools
+    version: "5.0"
+  - name: WmAmazonS3Provider
+    version: 12.0.0.0.16
+  - name: LowerFSPackage
+    version: "2.0"
+- serviceName: LowerFSPackage:lowerFS
+  packages:
+  - name: LowerFSPackage
+    version: "2.0"
+- serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1117
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
